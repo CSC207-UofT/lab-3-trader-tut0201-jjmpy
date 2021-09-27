@@ -22,12 +22,6 @@ public class BikeTest {
     }
 
     @Test(timeout = 50)
-    public void TestDowngradeSpeed() {
-        b.downgradeSpeed();
-        assertEquals(20, b.getMaxSpeed());
-    }
-
-    @Test(timeout = 50)
     public void TestGetPrice() {
         assertEquals(200, b.getPrice());
     }

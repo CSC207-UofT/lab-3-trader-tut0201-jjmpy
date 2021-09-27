@@ -2,7 +2,7 @@ public class Bike extends Tradable, Drivable{
     private int maxSpeed;
 
     public Bike() {
-        this.maxSpeed = 40;
+        this.maxSpeed = 30;
     }
 
     @Override
